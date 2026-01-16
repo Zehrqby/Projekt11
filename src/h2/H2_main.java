@@ -6,9 +6,9 @@ public class H2_main {
 	private static long [] cache = new long [1000];
 	
 	public static void main (String [] args) {
-		benchmarkt (40);
+		benchmark (40);
 	}
-	public static void benchmarkt (int n ) {
+	public static void benchmark (int n ) {
 		long start, end ;
 		
 		start = System.nanoTime();
